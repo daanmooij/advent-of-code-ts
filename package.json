@@ -1,0 +1,25 @@
+{
+  "name": "advent-of-code-ts",
+  "version": "1.0.0",
+  "description": "Advent of Code solutions in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node",
+    "dev": "ts-node-dev --respawn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daanmooij/advent-of-code-ts.git"
+  },
+  "keywords": [],
+  "author": "Daan Mooij",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
